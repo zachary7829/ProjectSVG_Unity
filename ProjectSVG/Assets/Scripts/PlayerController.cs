@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
         PissColorChange = Vector3.zero;
         PissColorChange.x = Input.GetAxis("Horizontal");
         PissColorChange.y = Input.GetAxis("Vertical");
-
         if (PissColorChange != Vector3.zero){
             hahahaONE();
             animator.SetFloat("moveX", PissColorChange.x);
